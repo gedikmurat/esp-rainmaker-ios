@@ -397,7 +397,7 @@ class DevicesViewController: UIViewController {
 
     // Helper method to customise UISegmentControl
     private func configureSegmentControl() {
-        let currentBGColor = UIColor(hexString: "#8265E3")
+        let currentBGColor = UIColor(hexString: "#4070F4")
         segmentControl.removeBorder()
         segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.0, weight: .regular)], for: .normal)
         segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.5, weight: .semibold), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue], for: .selected)

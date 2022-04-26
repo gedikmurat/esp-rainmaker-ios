@@ -281,7 +281,7 @@ extension ProvisionViewController: UITableViewDataSource {
         } else {
             let wifiNetwork = wifiDetailList[indexPath.row - 1]
             if wifiNetwork.ssid == currentSSIDLabel.text {
-                cell.backgroundColor = UIColor(hexString: "#8265E3").withAlphaComponent(0.6)
+                cell.backgroundColor = UIColor(hexString: "#4070F4").withAlphaComponent(0.6)
             } else {
                 cell.backgroundColor = .white
             }

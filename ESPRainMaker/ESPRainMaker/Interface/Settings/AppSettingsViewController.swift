@@ -68,7 +68,7 @@ class AppSettingsViewController: UIViewController {
 
     func updateUIViews() {
         NotificationCenter.default.post(Notification(name: Notification.Name(Constants.uiViewUpdateNotification)))
-        var currentBGColor = UIColor(hexString: "#8265E3")
+        var currentBGColor = UIColor(hexString: "#4070f4")
         if let color = AppConstants.shared.appThemeColor {
             PrimaryButton.appearance().backgroundColor = color
             TopBarView.appearance().backgroundColor = color
@@ -81,8 +81,8 @@ class AppSettingsViewController: UIViewController {
             }
         }
         if currentBGColor == #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1) {
-            PrimaryButton.appearance().setTitleColor(UIColor(hexString: "#8265E3"), for: .normal)
-            BarButton.appearance().setTitleColor(UIColor(hexString: "#8265E3"), for: .normal)
+            PrimaryButton.appearance().setTitleColor(UIColor(hexString: "#4070f4"), for: .normal)
+            BarButton.appearance().setTitleColor(UIColor(hexString: "#4070f4"), for: .normal)
         } else {
             PrimaryButton.appearance().setTitleColor(UIColor.white, for: .normal)
             BarButton.appearance().setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1), for: .normal)
