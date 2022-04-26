@@ -28,7 +28,7 @@ class ThumbTextSlider: UISlider {
     // and set as thumb. You can customize it's colors, border, etc.
     private lazy var thumbView: UIView = {
         let thumb = UIView()
-        thumb.backgroundColor = UIColor(hexString: "#8265E3") // thumbTintColor
+        thumb.backgroundColor = UIColor(hexString: "#4070F4") // thumbTintColor
         thumb.layer.borderWidth = 0.4
         thumb.layer.borderColor = UIColor.darkGray.cgColor
         return thumb
