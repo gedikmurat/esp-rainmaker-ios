@@ -104,7 +104,7 @@ class SignInViewController: UIViewController, ESPNoRefreshTokenLogic, UITextView
             }
         }
         if currentBGColor == #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1) {
-            currentBGColor = UIColor(hexString: "#8265E3")
+            currentBGColor = UIColor(hexString: "#4070F4")
         }
         segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: currentBGColor as Any], for: .normal)
         segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: currentBGColor as Any], for: .selected)
