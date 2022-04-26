@@ -23,7 +23,7 @@ import Foundation
 import UIKit
 
 class AppConstants {
-    let defaultBGColor = "#8265E3"
+    let defaultBGColor = "#4070F4"
     static let shared = AppConstants()
     var appThemeColor: UIColor?
     var appBGImage: UIImage?
