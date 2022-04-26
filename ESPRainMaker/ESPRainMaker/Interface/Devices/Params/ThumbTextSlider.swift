@@ -42,7 +42,7 @@ class ThumbTextSlider: UISlider {
         super.layoutSubviews()
 
         thumbTextLabel.frame = thumbFrame
-        thumbTextLabel.textColor = UIColor(hexString: "#456078")
+        thumbTextLabel.textColor = UIColor.white
         thumbTextLabel.text = "\(Int(value))"
     }
 
