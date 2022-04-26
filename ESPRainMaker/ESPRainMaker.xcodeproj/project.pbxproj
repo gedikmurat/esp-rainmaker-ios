@@ -69,7 +69,7 @@
 		143146B320EB22470017E119 /* ProvisionLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143146B220EB22470017E119 /* ProvisionLandingViewController.swift */; };
 		143146B520EB273B0017E119 /* ProvisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143146B420EB273B0017E119 /* ProvisionViewController.swift */; };
 		144149442126AE09002AD5E1 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144149432126AE09002AD5E1 /* SuccessViewController.swift */; };
-		2145B87F01D00671F6028FCC /* Pods_ESPRainMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E78E823824B7739458B5136 /* Pods_ESPRainMaker.framework */; };
+		718AEBF8597909F31DC480D6 /* Pods_ESPRainMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39B1CF736D4A7322B971D40 /* Pods_ESPRainMaker.framework */; };
 		F1012F62251110B300839F06 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1012F61251110B300839F06 /* Schedule.storyboard */; };
 		F1072BC5256F9BD400D7CE2C /* BLELandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1072BC3256F9BD300D7CE2C /* BLELandingViewController.swift */; };
 		F1072BC6256F9BD400D7CE2C /* BLEDeviceListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1072BC4256F9BD300D7CE2C /* BLEDeviceListViewCell.swift */; };
@@ -204,7 +204,6 @@
 		F1AC6D7F27A447B20051F6E7 /* TriggerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AC6D7D27A447B20051F6E7 /* TriggerTableViewCell.xib */; };
 		F1AC6D8127A91A420051F6E7 /* ParamTriggerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC6D8027A91A420051F6E7 /* ParamTriggerTableViewCell.swift */; };
 		F1AC6D8327AA4CB20051F6E7 /* ScheduleTriggerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC6D8227AA4CB20051F6E7 /* ScheduleTriggerTableViewCell.swift */; };
-		F1AC6D8B27AD54490051F6E7 /* ESPRMDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC6D8A27AD54490051F6E7 /* ESPRMDeviceType.swift */; };
 		F1AC6D8D27AD54700051F6E7 /* ESPRMDeviceType+GetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC6D8C27AD54700051F6E7 /* ESPRMDeviceType+GetImage.swift */; };
 		F1AE33C6263611B300694B52 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE33C5263611B300694B52 /* NotificationService.swift */; };
 		F1AE33CA263611B300694B52 /* ESPRainMakerPushNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1AE33C3263611B300694B52 /* ESPRainMakerPushNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -347,8 +346,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0030BB08B79C9179217947A2 /* Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-release.xcconfig"; path = "Target Support Files/Pods-ESPRainMakerAll-ESPRainMakerTests/Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-release.xcconfig"; sourceTree = "<group>"; };
-		07A32FA757DF690EF6657C35 /* Pods_ESPRainMakerAll_ESPRainMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESPRainMakerAll_ESPRainMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C04744F27CFA36E00FCE611 /* ESPSceneConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPSceneConstants.swift; sourceTree = "<group>"; };
 		0C1C7C7F2760BCCC0062867A /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		0C1C7C81276162CC0062867A /* SceneSelectDevicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneSelectDevicesVC.swift; sourceTree = "<group>"; };
@@ -408,7 +405,6 @@
 		0CF69233270A308B0098F515 /* ESPAlexaServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPAlexaServiceConstants.swift; sourceTree = "<group>"; };
 		0CF69234270A308B0098F515 /* ESPAlexaAPIWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPAlexaAPIWorker.swift; sourceTree = "<group>"; };
 		0CF69241270A34140098F515 /* AppDelegate+ESPAlexa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ESPAlexa.swift"; sourceTree = "<group>"; };
-		0E78E823824B7739458B5136 /* Pods_ESPRainMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESPRainMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1431462320DE994B0017E119 /* ESP RainMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESP RainMaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1431462620DE994B0017E119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1431462B20DE994B0017E119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -420,14 +416,8 @@
 		143146B220EB22470017E119 /* ProvisionLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionLandingViewController.swift; sourceTree = "<group>"; };
 		143146B420EB273B0017E119 /* ProvisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionViewController.swift; sourceTree = "<group>"; };
 		144149432126AE09002AD5E1 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
-		187D4B6FA979D2D3D8B7C631 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMaker.esprainmaker-release.xcconfig"; path = "Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker.esprainmaker-release.xcconfig"; sourceTree = "<group>"; };
-		192928FC4D9D638278AC45AA /* Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig"; path = "Target Support Files/Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension/Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig"; sourceTree = "<group>"; };
-		20EAA68DBEE10B9B45CB7E5B /* Pods-ESPRainMaker.esprainmaker-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMaker.esprainmaker-debug.xcconfig"; path = "Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker.esprainmaker-debug.xcconfig"; sourceTree = "<group>"; };
-		26DF8B6355896260B8078FDD /* Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-release.xcconfig"; path = "Target Support Files/Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension/Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-release.xcconfig"; sourceTree = "<group>"; };
-		66CAEB32AEE5EACE93B665E9 /* Pods-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig"; path = "Target Support Files/Pods-ESPRainMakerPushNotificationExtension/Pods-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig"; sourceTree = "<group>"; };
-		B8808920A07C54C0975F1844 /* Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-debug.xcconfig"; path = "Target Support Files/Pods-ESPRainMakerAll-ESPRainMakerTests/Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-debug.xcconfig"; sourceTree = "<group>"; };
-		BEE7825EF97282B6DCBD38F8 /* Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-release.xcconfig"; path = "Target Support Files/Pods-ESPRainMakerAll-ESPRainMaker/Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-release.xcconfig"; sourceTree = "<group>"; };
-		EF8004A653E60197A67C5A7F /* Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-debug.xcconfig"; path = "Target Support Files/Pods-ESPRainMakerAll-ESPRainMaker/Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-debug.xcconfig"; sourceTree = "<group>"; };
+		C60E15D0A26557F3746FF2D1 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESPRainMaker.esprainmaker-release.xcconfig"; path = "Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker.esprainmaker-release.xcconfig"; sourceTree = "<group>"; };
+		E39B1CF736D4A7322B971D40 /* Pods_ESPRainMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESPRainMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1012F61251110B300839F06 /* Schedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
 		F1072BC3256F9BD300D7CE2C /* BLELandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLELandingViewController.swift; sourceTree = "<group>"; };
 		F1072BC4256F9BD300D7CE2C /* BLEDeviceListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDeviceListViewCell.swift; sourceTree = "<group>"; };
@@ -666,7 +656,7 @@
 				143146A520EA231B0017E119 /* SafariServices.framework in Frameworks */,
 				F1153F2A238E5E79009DF206 /* NetworkExtension.framework in Frameworks */,
 				143146A320EA23150017E119 /* Security.framework in Frameworks */,
-				2145B87F01D00671F6028FCC /* Pods_ESPRainMaker.framework in Frameworks */,
+				718AEBF8597909F31DC480D6 /* Pods_ESPRainMaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,15 +911,7 @@
 		8F698F3AF42EA9FEE0BF4C3F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BEE7825EF97282B6DCBD38F8 /* Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-release.xcconfig */,
-				EF8004A653E60197A67C5A7F /* Pods-ESPRainMakerAll-ESPRainMaker.esprainmaker-debug.xcconfig */,
-				0030BB08B79C9179217947A2 /* Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-release.xcconfig */,
-				B8808920A07C54C0975F1844 /* Pods-ESPRainMakerAll-ESPRainMakerTests.esprainmaker-debug.xcconfig */,
-				187D4B6FA979D2D3D8B7C631 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */,
-				20EAA68DBEE10B9B45CB7E5B /* Pods-ESPRainMaker.esprainmaker-debug.xcconfig */,
-				26DF8B6355896260B8078FDD /* Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-release.xcconfig */,
-				192928FC4D9D638278AC45AA /* Pods-ESPRainMaker-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig */,
-				66CAEB32AEE5EACE93B665E9 /* Pods-ESPRainMakerPushNotificationExtension.esprainmaker-debug.xcconfig */,
+				C60E15D0A26557F3746FF2D1 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -942,8 +924,7 @@
 				F1153F29238E5E79009DF206 /* NetworkExtension.framework */,
 				143146A420EA231B0017E119 /* SafariServices.framework */,
 				143146A220EA23150017E119 /* Security.framework */,
-				07A32FA757DF690EF6657C35 /* Pods_ESPRainMakerAll_ESPRainMakerTests.framework */,
-				0E78E823824B7739458B5136 /* Pods_ESPRainMaker.framework */,
+				E39B1CF736D4A7322B971D40 /* Pods_ESPRainMaker.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1498,13 +1479,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1431464B20DE994C0017E119 /* Build configuration list for PBXNativeTarget "ESPRainMaker" */;
 			buildPhases = (
-				51E93EB2AFF55234E9421D11 /* [CP] Check Pods Manifest.lock */,
+				CD8D3C25D415367F6DE255C5 /* [CP] Check Pods Manifest.lock */,
 				1431461F20DE994B0017E119 /* Sources */,
 				1431462020DE994B0017E119 /* Frameworks */,
 				1431462120DE994B0017E119 /* Resources */,
-				BD0440008F6752DCBA91CC73 /* [CP] Embed Pods Frameworks */,
 				F1C77F0D2486DC91000CE2FE /* ShellScript */,
 				F1AE33CB263611B400694B52 /* Embed App Extensions */,
+				06517A757119B7CF7970FDF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1558,7 +1539,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = Espressif;
 				TargetAttributes = {
 					1431462220DE994B0017E119 = {
@@ -1655,7 +1636,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51E93EB2AFF55234E9421D11 /* [CP] Check Pods Manifest.lock */ = {
+		06517A757119B7CF7970FDF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8D3C25D415367F6DE255C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1675,23 +1673,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD0440008F6752DCBA91CC73 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESPRainMaker/Pods-ESPRainMaker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1C77F0D2486DC91000CE2FE /* ShellScript */ = {
@@ -1810,7 +1791,6 @@
 				F1124F5D268CF58100FA0B9E /* ESPNotificationHandler+Actions.swift in Sources */,
 				F191CD462511231C00BDCEF1 /* ConnectViewController.swift in Sources */,
 				F15EABF423E043DA008A766B /* CustomUIElements.swift in Sources */,
-				F1AC6D8B27AD54490051F6E7 /* ESPRMDeviceType.swift in Sources */,
 				0C80AA2526FDBD4B00480C53 /* ESPServerParams.swift in Sources */,
 				F1C76D542687C7B0009E217D /* ESPNotificationEvent.swift in Sources */,
 				0C1C7C802760BCCC0062867A /* SceneViewController.swift in Sources */,
@@ -2127,7 +2107,7 @@
 		};
 		F172D299234352D3005F687A /* ESPRainMaker-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 187D4B6FA979D2D3D8B7C631 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */;
+			baseConfigurationReference = C60E15D0A26557F3746FF2D1 /* Pods-ESPRainMaker.esprainmaker-release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
