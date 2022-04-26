@@ -88,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             PrimaryButton.appearance().setTitleColor(UIColor(hexString: "#4070f4"), for: .normal)
             BarButton.appearance().setTitleColor(UIColor(hexString: "#4070f4"), for: .normal)
         } else {
-            PrimaryButton.appearance().setTitleColor(UIColor.white, for: .normal)
+            PrimaryButton.appearance().setTitleColor(UIColor(hexString: "#456078"), for: .normal)
             BarButton.appearance().setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1), for: .normal)
         }
     }
