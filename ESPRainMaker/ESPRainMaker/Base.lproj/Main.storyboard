@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20019"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -835,7 +835,7 @@ Connect your mobile phone to the Wi-Fi network with a name like PROV_XXXXXX</str
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proof of Possession" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olS-t6-0xF" customClass="BarTitle" customModule="ESP_RainMaker" customModuleProvider="target">
                                         <rect key="frame" x="132" y="62.5" width="150" height="19.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-lw-FvL" customClass="BarButton" customModule="ESP_RainMaker" customModuleProvider="target">
@@ -853,7 +853,7 @@ Connect your mobile phone to the Wi-Fi network with a name like PROV_XXXXXX</str
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.32549019610000002" green="0.18823529410000001" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="FE8-lw-FvL" secondAttribute="trailing" constant="16" id="CcQ-W9-Gm6"/>
                                     <constraint firstItem="FE8-lw-FvL" firstAttribute="centerY" secondItem="olS-t6-0xF" secondAttribute="centerY" id="U8o-Nk-sLe"/>
@@ -1003,9 +1003,9 @@ PROV_XXXX</string>
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Devices" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hat-6w-6qK">
-                                        <rect key="frame" x="161.5" y="65.5" width="91.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="frame" x="163.5" y="62.5" width="87" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mau-1E-fUS">
@@ -1031,7 +1031,7 @@ PROV_XXXX</string>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MiU-uw-iDj">
                                         <rect key="frame" x="0.0" y="95.5" width="414" height="0.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="0.59999999999999998" id="DLV-VG-FAJ"/>
                                         </constraints>
@@ -1043,7 +1043,7 @@ PROV_XXXX</string>
                                     <constraint firstAttribute="trailing" secondItem="MiU-uw-iDj" secondAttribute="trailing" id="VmA-ZB-Rg5"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="96" id="aJ2-OZ-v7i"/>
                                     <constraint firstAttribute="trailing" secondItem="mau-1E-fUS" secondAttribute="trailing" constant="16" id="cr6-So-zKs"/>
-                                    <constraint firstAttribute="bottom" secondItem="Hat-6w-6qK" secondAttribute="bottom" constant="10" id="f5Y-6z-lrh"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hat-6w-6qK" secondAttribute="bottom" constant="14" id="f5Y-6z-lrh"/>
                                     <constraint firstItem="Hat-6w-6qK" firstAttribute="centerX" secondItem="upA-ME-fUd" secondAttribute="centerX" id="mGz-Za-MYH"/>
                                     <constraint firstItem="MiU-uw-iDj" firstAttribute="leading" secondItem="upA-ME-fUd" secondAttribute="leading" id="zFh-fZ-k2B"/>
                                     <constraint firstAttribute="bottom" secondItem="MiU-uw-iDj" secondAttribute="bottom" id="zJ5-H2-nUn"/>
@@ -2322,7 +2322,7 @@ Unable to add device</string>
         <image name="internet" width="70" height="70"/>
         <image name="menu_icon" width="32" height="32"/>
         <image name="no_camera" width="620" height="620"/>
-        <image name="no_device_icon" width="620" height="620"/>
+        <image name="no_device_icon" width="620" height="620.5"/>
         <image name="password" width="70" height="70"/>
         <image name="refresh_icon" width="128" height="128"/>
         <image name="schedule" width="70" height="70"/>

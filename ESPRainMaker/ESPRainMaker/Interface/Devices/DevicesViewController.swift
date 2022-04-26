@@ -399,8 +399,8 @@ class DevicesViewController: UIViewController {
     private func configureSegmentControl() {
         let currentBGColor = UIColor(hexString: "#4070F4")
         segmentControl.removeBorder()
-        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor(hexString: "#8265E3") as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.0, weight: .regular)], for: .normal)
-        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor(hexString: "#8265E3") as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.5, weight: .semibold), NSAttributedString.Key.underlineStyle: NSUnderlineStyle.thick.rawValue], for: .selected)
+        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor(hexString: "#456078") as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.0, weight: .regular)], for: .normal)
+        segmentControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor(hexString: "#4070F4") as Any, NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17.5, weight: .semibold)], for: .selected)
         segmentControl.changeUnderlineColor(color: currentBGColor)
         let allDeviceSize = getFontWidthForString(text: "All Devices")
         segmentControl.setWidth(allDeviceSize.width + 40, forSegmentAt: 0)
