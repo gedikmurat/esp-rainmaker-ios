@@ -44,7 +44,7 @@ class SceneListViewController: UIViewController {
         
         //hide nav bar
         navigationController?.navigationBar.isHidden = true
-        editButton.setTitleColor(UIColor(hexString: "#456078"), for: .normal)
+        editButton.setTitleColor(.white, for: .normal)
         
         //setup table view UI
         setupTable()
